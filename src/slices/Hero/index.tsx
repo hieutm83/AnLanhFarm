@@ -118,11 +118,11 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
 
 
 
-            <div className={`${cabin.className} hero-subheading mt-8 text-xl sm:text-3xl font-semibold text-orange-950`}>
+            <div className={`${cabin.className} hero-subheading mt-8 text-xl sm:text-3xl font-semibold text-orange-500`}>
               Khơi sáng ban ngày, dịu êm ban đêm
             </div>
 
-            <div className={`${cabin.className} hero-body mt-4 text-base sm:text-xl font-normal text-orange-950`}>
+            <div className={`${cabin.className} hero-body mt-4 text-base sm:text-xl font-normal text-orange-500`}>
               Trà thảo mộc Khởi An & Thư Dạ
             </div>
 
@@ -139,13 +139,13 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         {/* Phần mô tả thứ hai */}
         <div className="text-side relative z-[80] grid min-h-[100dvh] items-center gap-6 md:grid-cols-2">
           <div className={`${cabin.className}`}>
-              <h2 className="text-side-heading text-balance text-4xl sm:text-6xl lg:text-8xl font-black uppercase text-orange-950">
+              <h2 className="text-side-heading text-balance text-4xl sm:text-6xl lg:text-8xl font-black uppercase text-orange-500">
                 <TextSplitter text="DỊU TÂM" />
                 <br />
                 <TextSplitter text="THƯ THÂN" />
               </h2>
 
-            <div className="text-side-body mt-4 max-w-xl text-balance text-base sm:text-lg text-orange-950">
+            <div className="text-side-body mt-4 max-w-xl text-balance text-base sm:text-lg text-orange-500">
                 Tỉnh táo mà không sốc, thư giãn mà không buồn ngủ. Trà thảo mộc giúp bạn trở về trạng thái cân bằng – ngay cả trong những ngày áp lực nhất.            </div>
           </div>
         </div>
