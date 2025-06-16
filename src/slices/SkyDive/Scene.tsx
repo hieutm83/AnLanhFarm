@@ -151,12 +151,12 @@ export default function Scene({ sentence, flavor }: SkyDiveProps) {
 const isMobile = useMediaQuery("(max-width: 950px)", true);
 
 return (
-  <group ref={groupRef}>
-    <group rotation={[0, 0, 0.5]}>
+<group ref={groupRef}>
+  <group rotation={[0, 0, 0.5]}>
+    <group scale={isMobile ? [0.6, 0.6, 0.6] : [1, 1, 1]}>
       <FloatingCan
         ref={canRef}
         flavor={flavor}
-        scale={isMobile ? 0.6 : 1}
         rotationIntensity={0}
         floatIntensity={3}
         floatSpeed={3}
@@ -164,6 +164,9 @@ return (
         <pointLight intensity={30} color={"#8C0413"} decay={0.6} />
       </FloatingCan>
     </group>
+  </group>
+</group>
+
 
     {/* clouds */}
     <Clouds ref={cloudsRef}>
